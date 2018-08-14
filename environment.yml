@@ -1,0 +1,13 @@
+name: keras
+channels:
+  - conda-forge
+  - damianavila82
+dependencies:
+  - python==3.6
+  - ipython
+  - jupyter
+  - tensorflow==1.8
+  - keras>=2
+  - numpy
+  - pip:
+    - rise
