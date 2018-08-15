@@ -1,7 +1,7 @@
 An Absolute Beginner's Guide to Deep Learning with Keras
 -----
- 
-Brian Spiering
+
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/brianspiering/keras-intro/master)
 
 Description
 ------

@@ -6,8 +6,8 @@ dependencies:
   - python==3.6
   - ipython
   - jupyter
-  - tensorflow==1.8
-  - keras>=2
+  - tensorflow==1.9
+  - keras>=2.2
   - numpy
   - pip:
     - rise
