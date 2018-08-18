@@ -6,6 +6,7 @@ dependencies:
   - python==3.6
   - ipython
   - jupyter
+  - jupyter_contrib_nbextensions
   - tensorflow==1.9
   - keras>=2.2
   - numpy

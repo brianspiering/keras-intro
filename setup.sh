@@ -7,10 +7,7 @@ conda update -n base conda -y
 conda env create --name keras --force 
 
 # Start environment
-source activate ml
-
-# Update environment (might break stuff. move fast!?)
-conda update --all --yes
+source activate keras
 
 # Setup spell checking and other notebook enhancements
 git clone https://github.com/Calysto/notebook-extensions.git
@@ -24,4 +21,3 @@ jupyter nbextension enable calysto/annotate/main
 jupyter nbextension install rise --py --sys-prefix
 jupyter nbextension enable rise --py --sys-prefix
 
-rm -rf notebook-extensions
