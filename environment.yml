@@ -9,5 +9,6 @@ dependencies:
   - tensorflow==1.9
   - keras>=2.2
   - numpy
+  - matplotlib
   - pip:
     - rise
